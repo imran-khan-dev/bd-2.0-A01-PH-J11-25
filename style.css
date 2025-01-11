@@ -433,6 +433,10 @@ td {
 
 .donation {
     margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .donate-text-box {
@@ -482,5 +486,43 @@ td {
     font-size: 40px;
     font-weight: 700;
     color: rgba(14, 14, 14, 0.8);
-    
+
 }
+
+/* number input style for Taka */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    border: none;
+    outline: none;
+    background-color: none;
+    font-size: 20px;
+    margin-top: 52px;
+    margin-bottom: 20px;
+    color: rgba(14, 14, 14, 0.30);
+}
+
+hr {
+    width: 82%;
+    height: 0.8px;
+    border: none;
+    margin: 20px auto;
+    margin-bottom: 32px;
+    background-color: rgba(14, 14, 14, 0.30);
+}
+
+.donation button {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    background: #006A50;
+    padding: 17px 34px;
+}
+
