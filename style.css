@@ -53,7 +53,6 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 16px;
 }
 
 /* Header and Navbar */
@@ -183,6 +182,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 32px;
 }
 
 .vision-all-cards :last-child {
@@ -236,4 +236,26 @@ img {
 .vision-text-box h2 {
     font-size: 40px;
     margin-bottom: 24px;
+}
+
+.yunus-card {
+    outline: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 48px 24px;
+    border-radius: 16px;
+    background-image: url('assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-size: 65px 65px;
+    background-position: top 24px left 24px;
+}
+
+.yunus-card p {
+    margin-bottom: 12px;
+}
+
+.yunus-card h4 {
+    margin-bottom: 4px;
+}
+
+.yunus-designation {
+    color: rgba(14, 14, 14, 0.60);
 }
