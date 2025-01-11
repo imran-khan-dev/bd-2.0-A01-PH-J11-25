@@ -593,3 +593,35 @@ hr {
 .subscribe-form button:hover {
     background-color: #218838;
 }
+
+/* Footer */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px;
+}
+
+.footer hr {
+    width: 72%;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons {
+    margin-right: 0;
+}
+
+.social {
+    margin-right: 23px;
+}
+
+.social-icons :last-child {
+    margin-right: 0;
+}
