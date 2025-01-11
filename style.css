@@ -246,6 +246,7 @@ img {
     background-repeat: no-repeat;
     background-size: 65px 65px;
     background-position: top 24px left 24px;
+    margin-bottom: 80px;
 }
 
 .yunus-card p {
@@ -258,4 +259,228 @@ img {
 
 .yunus-designation {
     color: rgba(14, 14, 14, 0.60);
+}
+
+/* General Layout of Opinion */
+.your-opinion {
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.your-opinion h2 {
+    font-size: 40px;
+    margin-bottom: 56px;
+}
+
+/* Opinion Table */
+.opinion-table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+table {
+    width: 95%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+/* Table Header */
+th {
+    background: #C6E4D6;
+    color: #0E0E0E;
+    padding: 24px;
+    text-align: left;
+}
+
+th {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.t-header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* Table Body */
+td {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+    text-align: left;
+    color: #0E0E0E;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.opinion-table thead {
+    outline: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.opinion-table tbody {
+    outline: 1px solid #0E0E0E;
+    border-top: none;
+}
+
+/* Table Header Section for Text Alignment */
+.table-header-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.table-header-text h4 {
+    font-weight: 600;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Table Button */
+.table-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0E0E0E;
+    background-color: #C6E4D6;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    outline: 1px solid #0E0E0E;
+}
+
+.table-btn:hover {
+    background-color: #0b9572;
+}
+
+.table-btn span {
+    margin-left: 8px;
+}
+
+.table-btn span img {
+    width: 16px;
+    height: 16px;
+}
+
+.all-news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.news {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 96%;
+    margin-bottom: 128px;
+}
+
+.news2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 96%;
+    margin-bottom: 128px;
+}
+
+.news-cover-img {
+    border-radius: 24px;
+    margin-right: 32px;
+}
+
+.news-texts h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.news-texts img {
+    margin-bottom: 12px;
+}
+
+.date-time {
+    margin-bottom: 12px;
+}
+
+.date-time :first-child {
+    margin-right: 12px;
+}
+
+.news-texts p {
+    margin-bottom: 32px;
+}
+
+.news-texts button {
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    background: #006A50;
+    padding: 13px 26px;
+}
+
+.donation {
+    margin-bottom: 80px;
+}
+
+.donate-text-box {
+    margin-bottom: 32px;
+}
+
+.donate-text-box h2 {
+    font-size: 40px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.donate-text-box p {
+    text-align: center;
+}
+
+.money-cards-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.money-card {
+    padding: 40px;
+    border: none;
+    border-radius: 16px;
+    outline: 1px solid rgba(14, 14, 14, 0.15);
+    margin-right: 24px;
+}
+
+.money-card span {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.money-card-highlight {
+    padding: 40px;
+    border: none;
+    border-radius: 16px;
+    outline: 1px solid rgba(14, 14, 14, 0.15);
+    margin-right: 24px;
+    background: #C6E4D6;
+}
+
+.money-card-highlight span {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    
 }
