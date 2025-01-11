@@ -159,14 +159,81 @@ img {
 }
 
 /* Card Elements */
+.pillars-of-bd2 {
+    margin-bottom: 80px;
+}
+
 .pillar-card img {
     margin-bottom: 24px;
 }
 
 .pillar-card h4 {
     margin-bottom: 12px;
+    font-size: 20px;
 }
 
 .pillar-card p {
     margin-bottom: 0;
+}
+
+/* Vision of Future */
+
+/* Cards Container */
+.vision-all-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vision-all-cards :last-child {
+    margin-right: 0;
+}
+
+/* Individual Card */
+.vision-card {
+    outline: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 32px;
+    margin-right: 24px;
+    background: rgba(84, 144, 245, 0.2);
+    outline: none;
+}
+
+/* Card Elements */
+.vision-card img {
+    margin-bottom: 24px;
+}
+
+.vision-card h4 {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.vision-card p {
+    margin-bottom: 0;
+}
+
+.vision-card-text-box {
+    margin-bottom: 24px;
+}
+
+.vision-card button {
+    padding: 11px 20px;
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #5490F5;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Text Box */
+.vision-text-box {
+    margin-bottom: 32px;
+}
+
+.vision-text-box h2 {
+    font-size: 40px;
+    margin-bottom: 24px;
 }
