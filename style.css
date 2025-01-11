@@ -90,8 +90,14 @@ img {
     border: none;
     border-radius: 8px;
     outline: 2px solid var(--green);
+    cursor: pointer;
+    transition: color 0.3s ease, outline-color 0.3s ease;
 }
 
+.signin-btn:hover {
+    color: red;
+    outline: 1px solid red;
+}
 
 
 /* Hero Section */
@@ -104,6 +110,10 @@ img {
     border-radius: 24px;
     padding-inline: 60px;
     margin-bottom: 80px;
+}
+
+.hero-text-area {
+    flex-basis: 53%;
 }
 
 .hero p {
@@ -128,6 +138,12 @@ img {
     border-radius: 8px;
     background: var(--green);
     padding: 17px 34px;
+    cursor: pointer;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.hero button:hover {
+    background: var(--moderate-green);
 }
 
 /* Pillars of "Bangladesh 2.0" */
@@ -194,9 +210,24 @@ img {
     border-radius: 16px;
     padding: 32px;
     margin-right: 24px;
-    background: rgba(84, 144, 245, 0.2);
     outline: none;
 }
+
+.vision-card1 {
+    background: rgba(84, 144, 245, 0.2);
+    flex-basis: 33%;
+}
+
+.vision-card2 {
+    background: var(--light-green);
+    flex-basis: 33%;
+}
+
+.vision-card3 {
+    background: #F7EBCF;
+    flex-basis: 33%;
+}
+
 
 /* Card Elements */
 .vision-card img {
@@ -221,11 +252,43 @@ img {
     font-family: "Fira Sans", serif;
     font-size: 16px;
     font-weight: 600;
-    color: white;
-    background: #5490F5;
     border: none;
     border-radius: 8px;
 }
+
+.vision-card1 button {
+    color: white;
+    background: #5490F5;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.vision-card1 button:hover {
+    background: #3671d7;
+}
+
+.vision-card2 button {
+    color: white;
+    background: var(--moderate-green);
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.vision-card2 button:hover {
+    background: #006A50;
+}
+
+.vision-card3 button {
+    color: white;
+    background: #FFC239;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.vision-card3 button:hover {
+    background: #f3af12
+}
+
+
+
+
 
 /* Text Box */
 .vision-text-box {
@@ -430,6 +493,11 @@ td {
     border-radius: 8px;
     background: var(--green);
     padding: 13px 26px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.news-texts button:hover {
+    background: var(--moderate-green);
 }
 
 
@@ -468,6 +536,11 @@ td {
     border-radius: 16px;
     outline: 1px solid rgba(14, 14, 14, 0.15);
     margin-right: 24px;
+    transition: color 0.3s ease, outline-color 0.3s ease;
+}
+
+.money-card:hover {
+    outline: 1px solid red;
 }
 
 .money-card span {
@@ -483,6 +556,10 @@ td {
     outline: 1px solid rgba(14, 14, 14, 0.15);
     margin-right: 24px;
     background: var(--light-green);
+}
+
+.money-card-highlight:hover {
+    outline: 1px solid red;
 }
 
 .money-card-highlight span {
@@ -527,6 +604,11 @@ hr {
     border-radius: 8px;
     background: var(--green);
     padding: 17px 34px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.donation button:hover {
+    background: var(--moderate-green);
 }
 
 
@@ -588,10 +670,11 @@ hr {
     color: white;
     cursor: pointer;
     outline: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 .subscribe-form button:hover {
-    background-color: #218838;
+    background-color: var(--moderate-green);
 }
 
 /* Footer */
